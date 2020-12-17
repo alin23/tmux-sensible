@@ -115,9 +115,9 @@ main() {
 	tmux set-option -g focus-events on
 
 	# super useful when using "grouped sessions" and multi-monitor setup
-	if ! iterm_terminal; then
-		tmux set-window-option -g aggressive-resize on
-	fi
+	# if ! iterm_terminal; then
+		# tmux set-window-option -g aggressive-resize on
+	# fi
 
 	# DEFAULT KEY BINDINGS
 
